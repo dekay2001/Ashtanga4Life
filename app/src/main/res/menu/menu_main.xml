@@ -1,0 +1,53 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/chants"
+        android:title="@string/chants"
+        android:titleCondensed="@string/chants_cnd"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/surya_a"
+        android:title="@string/suryanamaskara_a"
+        android:titleCondensed="@string/suryanamaskara_a_cnd"
+        android:orderInCategory="200"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/surya_b"
+        android:title="@string/suryanamaskara_b"
+        android:titleCondensed="@string/suryanamaskara_b_cnd"
+        android:orderInCategory="300"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/fundamental"
+        android:title="@string/fundamental_basic"
+        android:titleCondensed="@string/fundamental_basic_cnd"
+        android:orderInCategory="400"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/primary"
+        android:title="@string/primary_series"
+        android:titleCondensed="@string/primary_series_cnd"
+        android:orderInCategory="500"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/intermediate"
+        android:title="@string/intermdediate_series"
+        android:titleCondensed="@string/intermdediate_series_cnd"
+        android:orderInCategory="600"
+        android:enabled="false"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/advanced"
+        android:title="@string/advanced_series"
+        android:titleCondensed="@string/advanced_series_cnd"
+        android:orderInCategory="700"
+        android:enabled="false"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/closing"
+        android:title="@string/closing_sequence"
+        android:titleCondensed="@string/closing_sequence"
+        android:orderInCategory="700"
+        app:showAsAction="never" />
+</menu>

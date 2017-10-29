@@ -1,0 +1,112 @@
+<resources>
+    <string name="app_name">Ashtanga4Life</string>
+    <string name="action_settings">Hipster Font App Name</string>
+    <string name="find_pose">Select a pose...</string>
+    <string name="select_pose">Show Pose</string>
+    <string name="chants">Opening/Closing Chants</string>
+    <string name="suryanamaskara_a">Suryanamaskara A</string>
+    <string name="suryanamaskara_b">Suryanamaskara B</string>
+    <string name="fundamental_basic">Fundamental Basic Sequence</string>
+    <string name="primary_series">Primary Series</string>
+    <string name="intermdediate_series">Intermediate Series</string>
+    <string name="advanced_series">Advanced Series</string>
+    <string name="closing_sequence">Finishing Sequence</string>
+    <string name="chants_cnd">Chants</string>
+    <string name="suryanamaskara_a_cnd">Surya. A</string>
+    <string name="suryanamaskara_b_cnd">Surya. B</string>
+    <string name="fundamental_basic_cnd">Fundamental</string>
+    <string name="primary_series_cnd">Primary</string>
+    <string name="intermdediate_series_cnd">Intermediate</string>
+    <string name="advanced_series_cnd">Advanced</string>
+    <string name="closing_sequence_cnd">Finishing</string>
+    <string name="next">Next</string>
+    <string-array name="pose_list">
+        <item>Meditation Waves</item>
+        <item>Butterfly</item>
+        <item>Urdhva Vrikasana</item>
+        <item>Uttanasana A</item>
+        <item>Uttanasana B</item>
+        <item>Chaturanga Dandasana</item>
+        <item>Urdhva Mukah Svanasana</item>
+        <item>Adho Mukha Svanasana</item>
+        <item>Uttanasana B</item>
+        <item>Uttanasana A</item>
+        <item>Urdhva Vrikasana</item>
+        <item>Samasthiti</item>
+    </string-array>
+    <string-array name="surya_namaskara_a">
+        <item>Urdhva Vrikasana</item>
+        <item>Uttanasana A</item>
+        <item>Uttanasana B</item>
+        <item>Chaturanga Dandasana</item>
+        <item>Urdhva Mukah Svanasana</item>
+        <item>Adho Mukha Svanasana</item>
+        <item>Uttanasana B</item>
+        <item>Uttanasana A</item>
+        <item>Urdhva Vrikasana</item>
+        <item>Samasthiti</item>
+    </string-array>
+    <string-array name="surya_namaskara_b">
+        <item>Utkatasana</item>
+        <item>Uttanasna A</item>
+        <item>Uttanasana B</item>
+        <item>Chaturanga Dandasana</item>
+        <item>Urdhva Mukah Svanasana</item>
+        <item>Adho Mukha Svanasana</item>
+        <item>Virabhadrasana A</item>
+        <item>Chaturanga Dandasana</item>
+        <item>Urdhva Mukah Svanasana</item>
+        <item>Adho Mukha Svanasana</item>
+        <item>Virabhadrasana A</item>
+        <item>Chaturanga Dandasana</item>
+        <item>Urdhva Mukah Svanasana</item>
+        <item>Adho Mukha Svanasana</item>
+        <item>Uttanasana B</item>
+        <item>Uttanasana A</item>
+        <item>Utkatasana</item>
+        <item>Samasthiti</item>
+    </string-array>
+    <string-array name="fundamental_basic_sequence">
+        <item>Padangusthasana</item>
+        <item>Pada-Hastasana</item>
+        <item>Utthita Trikonasana</item>
+        <item>Parivritta Trikonasana</item>
+        <item>Utthita Parshvakonasana</item>
+        <item>Parivritta Parshvakonasana</item>
+        <item>Prasarita Padottanasana A</item>
+        <item>Prasarita Padottanasana B</item>
+        <item>Prasarita Padottanasana C</item>
+        <item>Prasarita Padottanasana D</item>
+        <item>Parshvottanasana</item>
+    </string-array>
+    <string-array name="finishing_sequence">
+        <item>Lay On Your Back</item>
+        <item>Salamba Sarvangasana</item>
+        <item>Halasana</item>
+        <item>Karna-Pidasana</item>
+        <item>Urdhva-Padmasana</item>
+        <item>Pindasana</item>
+        <item>Matsyasana</item>
+        <item>Uttana Padasana</item>
+        <item>Shirshasana A</item>
+        <item>Shirshasana B</item>
+        <item>Urdhva Dandasana</item>
+        <item>The Way Out</item>
+        <item>Balasana</item>
+        <item>Baddha Padmasana</item>
+        <item>Yoga-Mudra</item>
+        <item>Padmasana</item>
+        <item>Utplutih</item>
+        <item>Shavasana</item>
+    </string-array>
+    <string-array name="series_list">
+        <item>Sun Salutation A</item>
+        <item>Sun Salutation B</item>
+        <item>Fundamental Basic Sequence</item>
+        <item>Finishing Sequence</item>
+        <item>Primary Series</item>
+        <item>Intermediate Series</item>
+        <item>Advanced A Series</item>
+    </string-array>
+    <string name="title_activity_get_series">GetSeries</string>
+</resources>
