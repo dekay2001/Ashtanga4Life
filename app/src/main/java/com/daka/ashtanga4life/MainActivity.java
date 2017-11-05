@@ -27,7 +27,9 @@ public class MainActivity extends AppCompatActivity {
     public boolean onOptionsItemSelected(MenuItem item) {
         switch (item.getItemId()) {
             case R.id.chants:
-                Toast.makeText(this, getResources().getString(R.string.chants), Toast.LENGTH_LONG).show();
+                //Toast.makeText(this, getResources().getString(R.string.chants), Toast.LENGTH_LONG).show();
+                //this.showChant( getResources().getString(R.string.opening_chant_s));
+                this.showChant(R.string.opening_chant_s);  // <-----I believe I have an issue here
                 return true;
             case R.id.surya_a:
                 this.startPractice(getResources().getString(R.string.suryanamaskara_a));
@@ -60,6 +62,14 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(this, YogaPracticeActivity.class);
         Toast.makeText(this, series_name, Toast.LENGTH_LONG).show();
         intent.putExtra("SeriesName", series_name);
+        startActivity(intent);
+    }
+
+    private void showChant( int chant_id){
+        Intent intent = new Intent(this, YogaChantActivity.class);
+        Toast.makeText(this, String.valueOf(chant_id), Toast.LENGTH_LONG).show();
+        //intent.putExtra("ChantType", chant_name);
+        intent.putExtra("ChantId", chant_id);
         startActivity(intent);
     }
 }

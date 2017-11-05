@@ -20,6 +20,10 @@
     <string name="advanced_series_cnd">Advanced</string>
     <string name="closing_sequence_cnd">Finishing</string>
     <string name="next">Next</string>
+    <string name="opening_chant_e">Opening Invocation (English)</string>
+    <string name="closing_chant_e">Closing Chant (English)</string>
+    <string name="opening_chant_s">Opening Invocation</string>
+    <string name="closing_chant_s">Closing Chant</string>
     <string-array name="pose_list">
         <item>Meditation Waves</item>
         <item>Butterfly</item>
