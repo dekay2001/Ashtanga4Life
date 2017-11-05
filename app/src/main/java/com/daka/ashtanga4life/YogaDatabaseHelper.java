@@ -20,7 +20,7 @@ public class YogaDatabaseHelper extends SQLiteOpenHelper{
 
     @Override
     public void onCreate(SQLiteDatabase db){
-
+        
         //YogaPoses
         db.execSQL("CREATE TABLE YogaPoses("
                 + "_id INTEGER PRIMARY KEY AUTOINCREMENT, "

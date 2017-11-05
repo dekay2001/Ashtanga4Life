@@ -2,6 +2,8 @@ package com.daka.ashtanga4life;
 import android.content.Context;
 import android.content.Intent;
 import android.support.v4.app.NotificationCompatSideChannelService;
+import android.widget.Toast;
+
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Collections;
@@ -15,6 +17,7 @@ import java.util.Collections;
  */
 public class YogaGuru {
     private YogaDatabaseHelper yoga_db;
+
 
     YogaGuru(Context application_context){
         this.yoga_db = new YogaDatabaseHelper(application_context);
@@ -45,19 +48,58 @@ public class YogaGuru {
         return yoga_series.get_poses_randomized(num_poses);
     }
 
-    // List<String> getPoses(String series_name){
-    //     /*  Returns a list of all the series sankrit 
-    //     names in order.
-    //     */
-    //     List<String> poses = new ArrayList<String>();
-    //     YogaSeries series;
-    //     List<YogaPose> series_poses;
+    public YogaChant getChant(int chant_id){
+        YogaChant chant;
+        int chant_image;
+        String chanting_text;
 
-    //     series = this.yoga_db.getYogaSeries(series_name);
-    //     series_poses = series.get_poses();
-    //     for (YogaPose p:series_poses) {
-    //         poses.add(p.get_name_sanskrit());
-    //     }
-    //     return poses;
-    // }
+        switch (chant_id){
+            case R.string.opening_chant_s:
+                chant_image = R.drawable.opening_sanskrit;
+                chanting_text = "vande gurunam charanaravinde\n" +
+                        "sandarsita svatmasukhava bodhe\n" +
+                        "nihsreyase jangalikayamane\n" +
+                        "samsara halahala mohasantyai \n" +
+                        "abahu purusakaram\n" +
+                        "sankhacakrasi dharinam\n" +
+                        "sahasra sirasam svetam\n" +
+                        "pranamami patanjalim\n" +
+                        "om";
+                break;
+            case R.string.opening_chant_e:
+                chant_image = R.drawable.opening_sanskrit;
+                chanting_text = "I bow to the lotus feet of the Gurus\n" +
+                        "The awakening happiness of one’s own Self revealed\n" +
+                        "Beyond better, acting like the Jungle physician\n" +
+                        "Pacifying delusion, the poison of Sansara\n" +
+                        "Taking the form of a man to the shoulders\n" +
+                        "Holding a conch, a discus, and a sword\n" +
+                        "One thousand heads white\n" +
+                        "To Pantanjali, I salute";
+                break;
+            case R.string.closing_chant_s:
+                chant_image = R.drawable.closing_sanskrit;
+                chanting_text = "Om\n" +
+                        "Svasthi Praja Bhyaha Pari Pala Yantam\n" +
+                        "Nya Yena Margena Mahim Mahishaha\n" +
+                        "Go Brahmanebhyaha Shubamastu Nityam\n" +
+                        "Lokah Samastah Sukhino Bhavantu\n" +
+                        "Shanti Shanti Shantihi";
+                break;
+            case R.string.closing_chant_e:
+                chant_image = R.drawable.closing_sanskrit;
+                chant_id = R.string.closing_chant_e;
+                chanting_text = "May all be well with mankind.\n" +
+                        "May the leaders of the earth protect in every way, by keeping to the right path.\n" +
+                        "May there be goodness for those who know the earth to be sacred.\n" +
+                        "May all the worlds be happy";
+                break;
+            default:
+                chant_image = R.drawable.opening_sanskrit;
+                chanting_text = "Unexpected chant_name specified";
+        }
+
+        chant = new YogaChant(chant_id,chant_image, chanting_text);
+        return chant;
+    }
 }
