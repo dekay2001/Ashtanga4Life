@@ -20,7 +20,7 @@
         android:textColor="@color/lightGoldenRodYellow"
         android:fontFeatureSettings=""
         android:id="@+id/editTextPoseName"
-        android:text="SeriesName is tal  android:layout_height="/>
+        android:text=""/>
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
