@@ -17,27 +17,29 @@
         android:layout_height="wrap_content"
         android:layout_column="2"
         android:layout_row="0"
-        android:text=""/>
-
+        android:fontFamily="cursive"
+        android:text="Medium Text"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/lightGoldenRodYellow" />
     <ImageView
-        android:id="@+id/imageViewSanscrit"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_column="0"
-        android:layout_columnSpan="3"
-        android:layout_gravity="fill"
+        android:contentDescription="Chant in Sanscrit Text"
         android:layout_row="1"
-        android:adjustViewBounds="false"
-        android:contentDescription="" />
+        android:layout_column="1"
+        android:layout_columnSpan="2"
+        android:layout_gravity="fill"
+        android:id="@+id/imageViewSanscrit"/>
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_row="2"
+        android:layout_row="1"
         android:layout_column="0"
-        android:layout_columnSpan="3"
+        android:layout_columnSpan="1"
         android:fontFeatureSettings=""
         android:id="@+id/editChant"
-        android:text=""
+        android:text="Chant"
+        android:layout_gravity="fill"
         android:textColor="@color/lightGoldenRodYellow"/>
 
 
